@@ -1,1 +1,9 @@
-/* your code */
+table.outer-border {
+    border-collapse: collapse;
+    border: 1px solid black; 
+}
+table.outer-border th,
+table.outer-border td {
+    border: none; 
+    padding: 5px;
+}
